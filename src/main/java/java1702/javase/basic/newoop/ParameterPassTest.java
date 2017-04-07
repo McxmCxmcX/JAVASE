@@ -9,18 +9,19 @@ import org.omg.IOP.ComponentIdHelper;
  * JAVASE
  */
 public class ParameterPassTest {
+    private static void method(boolean x){
+        System.out.println("2: " + x);
+        x = false;
+        System.out.println("3: " + x);
 
-    private static void test(int x) {//形参
-        System.out.println("b: " + x);//0
-        x++;
-        System.out.println("c: " + x);//1
+
     }
 
     public static void main(String[] args) {
-        int i = 0;
-       System.out.println("a: " + i);//0
-        test(i);//实参
-        System.out.println("d: " + i);
+    boolean x = true;
+        System.out.println("1: " + x);
+        method(x);
+        System.out.println("4: " + x);
     }
 
-    }
+}
