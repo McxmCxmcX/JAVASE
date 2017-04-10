@@ -40,5 +40,7 @@ public class HashtableTest {
                         System.out.println(hashtable.containsKey(2));
                 System.out.println(hashtable.containsValue("hi")); // JDK 1.2
                 System.out.println(hashtable.contains("test")); // JDK 1.0
+
+
     }
 }
