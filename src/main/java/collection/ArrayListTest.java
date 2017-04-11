@@ -26,6 +26,7 @@ public class ArrayListTest {
         strings2.removeAll(strings3);
         System.out.println(strings2);
 
+
         // retain 保留\ [rɪ'teɪn]
         // concurrent 并发\ [kən'kʌr\(ə\)nt]
         // modification 修改\ [,mɒdɪfɪ'keɪʃ\(ə\)n]
