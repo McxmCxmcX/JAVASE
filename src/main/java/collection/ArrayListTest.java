@@ -27,9 +27,8 @@ public class ArrayListTest {
         System.out.println(strings2);
 
         // retain 保留\ [rɪ'teɪn]
-        strings3.retainAll(strings2); // [b, c] [a]
-                // concurrent 并发\ [kən'kʌr\(ə\)nt]
-                        // modification 修改\ [,mɒdɪfɪ'keɪʃ\(ə\)n]
+        // concurrent 并发\ [kən'kʌr\(ə\)nt]
+        // modification 修改\ [,mɒdɪfɪ'keɪʃ\(ə\)n]
         strings3.retainAll(strings2); // [b, c] [a, b, c]
         System.out.println(strings3);
     }
