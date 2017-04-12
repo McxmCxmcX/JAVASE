@@ -18,8 +18,27 @@ public class ListIteratorTest {
         strings.add("e");
 
         ListIterator<String> listIterator = strings.listIterator();
-
         // next
+                while (listIterator.hasNext()) {
+                        String next = listIterator.next();
+            //            System.out.println(listIterator.nextIndex());
+                                System.out.println(next);
+            //            listIterator.set("f");
+                                listIterator.remove();
+                    }
+                System.out.println(strings);
+
+                        System.out.println("---");
+
+                        while (listIterator.hasPrevious()) {
+                        String prev = listIterator.previous();
+            //            System.out.println(listIterator.previousIndex());
+                                if (prev.equals("c")) {
+                                listIterator.add("f");
+                            }
+                        System.out.println(prev);
+                    }
+                System.out.println(strings);
         // prev
         // index
         // add
