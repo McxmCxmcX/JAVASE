@@ -14,8 +14,9 @@ public class VectorTest {
         vector.add("123");
         vector.add("true");
         vector.add("456");
+        vector.add("567");
 
-        String s = vector.get(3);// Type safe
+        String s = vector.get(4);// Type safe
         System.out.println(s);
     }
 }
