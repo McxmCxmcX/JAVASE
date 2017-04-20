@@ -1,7 +1,6 @@
 package java1702.javase.basic.io;
-
-import javax.lang.model.element.Name;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -11,30 +10,25 @@ import java.io.InputStream;
  * JAVASE
  */
 public class InputStreamTest {
-//    public static void main(String[] args) {
-//        try {
-//            InputStream inputStream = new FileInputStream("/Users/heishuai/Desktop/Java1702_1703.txt");
-//            System.out.println(inputStream.read());  //  49 -1
-//            System.out.println(inputStream.read());  //  44 -7
-//
-//        }catch (IOException e){
-//            e.printStackTrace();
-//        }
-//
-//        System.out.println((int)"1");
-//    }
-public static void main(String[] args) {
-
-    try {
-        InputStream inputStream = new FileInputStream("test");
-        int i;
-        while ((i = inputStream.read()) != -1) {
-            System.out.println((char) i);
-        }
-    }catch (IOException e) {
-        e.printStackTrace();
-
+    public static void main(String[] args) {
+                InputStream inputStream = null;
+        try {
+            inputStream = new FileInputStream("test");
+                        inputStream = new FileInputStream("test"); // 绝对路径
+            int i;
+            while ((i = inputStream.read()) != -1) {
+                                System.out.println(i);
+                                System.out.println((char) i);
+            }
+                    } catch (IOException e) { // char [0, 65535]
+                    } finally {
+                        if (inputStream != null) {
+                                try {
+                                        inputStream.close();
+                                    } catch (IOException e) {
+                                        e.printStackTrace();
+                                    }
+                           }
         }
     }
 }
-
