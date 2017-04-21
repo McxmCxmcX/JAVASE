@@ -28,6 +28,6 @@ public class ReaderTest extends FileReader {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("closed.");
+        System.out.println("closed. ");
     }
 }
