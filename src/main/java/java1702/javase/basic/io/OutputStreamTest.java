@@ -23,7 +23,7 @@ public class OutputStreamTest {
                 try {
                     outputStream.close();
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    e . printStackTrace();
                 }
             }
         }
