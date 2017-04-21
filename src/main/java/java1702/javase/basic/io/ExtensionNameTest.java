@@ -6,4 +6,8 @@ package java1702.javase.basic.io;
  * JAVASE
  */
 public class ExtensionNameTest {
+    public static void main(String[] args) {
+        String s = "123.gif";
+        System.out.println(s.substring(s.lastIndexOf('.')));
+    }
 }
