@@ -11,24 +11,23 @@ import java.io.InputStream;
  */
 public class InputStreamTest {
     public static void main(String[] args) {
-                InputStream inputStream = null;
+        InputStream inputStream = null;
         try {
-            inputStream = new FileInputStream("test");
-                        inputStream = new FileInputStream("test"); // 绝对路径
+            inputStream = new FileInputStream("test"); // 绝对路径
             int i;
             while ((i = inputStream.read()) != -1) {
-                                System.out.println(i);
-                                System.out.println((char) i);
+                System.out.println((char) i);
             }
-                    } catch (IOException e) { // char [0, 65535]
-                    } finally {
-                        if (inputStream != null) {
-                                try {
-                                        inputStream.close();
-                                    } catch (IOException e) {
-                                        e.printStackTrace();
-                                    }
-                           }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (inputStream != null) {
+                try {
+                    inputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 }
