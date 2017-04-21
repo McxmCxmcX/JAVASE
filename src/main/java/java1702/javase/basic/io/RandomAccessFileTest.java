@@ -17,7 +17,7 @@ public class RandomAccessFileTest {
             randomAccessFile.seek(32L); // seek 寻求\ [siːk]
             System.out.println(randomAccessFile.readDouble());
         } catch (java.io.IOException e) {
-            e.printStackTrace();
+            e.printStackTrace( );
         }
     }
 }
