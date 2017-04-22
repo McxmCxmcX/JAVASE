@@ -6,4 +6,13 @@ package java1702.javase.basic.exam;
  * JAVASE
  */
 public class JAVA2 {
+    public static void main(String[] args) {
+        try {
+            String e = "hello";
+            e = null;
+        } catch (StringIndexOutOfBoundsException e) {
+            e.printStackTrace();
+            System.out.println();
+        }
+    }
 }

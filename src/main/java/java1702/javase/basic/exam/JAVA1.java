@@ -13,6 +13,5 @@ public class JAVA1 {
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("数组越界");
         }
-
     }
 }
