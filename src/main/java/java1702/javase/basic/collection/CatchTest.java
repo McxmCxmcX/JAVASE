@@ -1,4 +1,4 @@
-package collection;
+package java1702.javase.basic.collection;
 
 /**
  * Created by heishuai.china.cn
@@ -7,7 +7,7 @@ package collection;
  */
 public class CatchTest {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(1);
         System.out.println();
         System.out.println();
 

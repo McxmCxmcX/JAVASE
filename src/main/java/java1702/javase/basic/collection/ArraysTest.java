@@ -1,4 +1,4 @@
-package collection;
+package java1702.javase.basic.collection;
 import com.sun.media.sound.SoftTuning;
 
         import java.util.*;

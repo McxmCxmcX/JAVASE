@@ -1,4 +1,4 @@
-package basic;
+package java1702.javase.basic.basic;
 
 /**
  * Created by heishuai.china.cn

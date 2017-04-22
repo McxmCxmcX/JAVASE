@@ -1,4 +1,4 @@
-package collection;
+package java1702.javase.basic.collection;
 
 /**
  * Created by heishuai.china.cn
@@ -32,7 +32,7 @@ public class ArrayTest {
 
         ArrayTest[] arrayTests = {new ArrayTest(), new ArrayTest(), new ArrayTest()};
 //        arrayTests[0] = new ArrayTest();
-        System.out.println(arrayTests[0]); // java1702.javase.collection.ArrayTest@
+        System.out.println(arrayTests[0]); // java1702.javase.ArrayTest@
         System.out.println(arrayTests[1]); // ?
         System.out.println(arrayTests[2]); // ?
         System.out.println(arrayTests.length);
