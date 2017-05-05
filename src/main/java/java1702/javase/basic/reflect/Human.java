@@ -4,13 +4,6 @@ package java1702.javase.basic.reflect;
         import java.util.ArrayList;
         import java.util.List;
         import java.util.Vector;
-
-/**
- * Created by mingfei.net@gmail.com
- * 5/3/17 17:04
- * https://github.com/thu/JavaSE_20171
- */
-
 class Animals {
 
     public int age;
