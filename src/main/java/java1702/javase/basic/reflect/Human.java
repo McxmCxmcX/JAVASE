@@ -1,9 +1,10 @@
 package java1702.javase.basic.reflect;
 
-        import java.lang.reflect.Field;
-        import java.util.ArrayList;
-        import java.util.List;
-        import java.util.Vector;
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
+
 class Animals {
 
     public int age;

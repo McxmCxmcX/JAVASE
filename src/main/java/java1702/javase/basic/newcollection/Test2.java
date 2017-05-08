@@ -30,4 +30,16 @@ public class Test2 {
 
 //        System.out.println("Правительство России".toUpperCase());
     }
+
+    public boolean pt(int i, char x) {
+        return false;
+    }
+
+    public boolean pt(char x) {
+        return false;
+    }
+
+    public boolean pt() {
+        return false;
+    }
 }
